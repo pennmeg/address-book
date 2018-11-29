@@ -1,0 +1,20 @@
+- Build the backend in Ruby on Rails
+- Build the frontend ideally in ReactJS
+
+- CreateForm that takes the following information: 
+`firstName`
+`lastName`
+`emailAddress`
+'phoneNumber`
+`companyName`
+
+- App should display the list of contacts and their data
+-When a user adds the above information to the form, after clicking 'Submit' the new information should be added to the displayed list of contacts immediately without refreshing the page 
+- App should allow the deletion of specific contacts that are removed immediately without a page refresh
+- Allow the list of contacts to be filtered via ReactJS to show:
+Only contacts with `.com` email addresses
+Order the contacts alphabetically by email address (ascending and descending)
+
+Bonus
+- Deploy to Heroku free instance
+- TDD
