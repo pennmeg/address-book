@@ -4,13 +4,12 @@ class AddContact extends React.Component {
   render () {
     return (
       <form className="contact-form">
-        <h2>Add Contact Information</h2>
-        <input name="firstName" type="text" placeholder="First Name"/>
-        <input name="lastName" type="text" placeholder="Last Name"/>
-        <input name="emailAddress" type="text" placeholder="Email Address"/>
-        <input name="phoneNumber" type="number" placeholder="Phone Number"/>
-        <input name="companyName" type="text" placeholder="Company"/>
-        <button type="submit">+ Add Contact</button>
+        <input className="fullName" name="firstName" type="text" placeholder="First Name"/>
+        <input className="fullName" name="lastName" type="text" placeholder="Last Name"/> <br />
+        <input className="details" name="companyName" type="text" placeholder="Company"/> <br />
+        <input className="details" name="emailAddress" type="text" placeholder="Email Address"/> <br />
+        <input className="details" name="phoneNumber" type="number" placeholder="Phone Number"/> <br />
+        <button type="submit"><i class="fas fa-plus"></i> Add Contact</button>
       </form>
     );
   }
